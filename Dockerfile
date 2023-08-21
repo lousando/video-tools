@@ -8,6 +8,7 @@ RUN apt-get install -y vim
 RUN apt-get install -y rename
 RUN apt-get install -y git
 RUN apt-get install -y make
+RUN apt-get install -y zsh
 
 RUN cd /tmp && git clone https://git.lousando.xyz/lousando/clean-cow.git && cd clean-cow && make install
 
